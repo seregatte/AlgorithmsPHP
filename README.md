@@ -1,5 +1,6 @@
 # AlgorithmsPHP
-Some Algorithms written in PHP for language studies
+
+Some Algorithms written in PHP for language studies (PR are welcome)
 
 ## Requirements
 
@@ -8,8 +9,10 @@ Some Algorithms written in PHP for language studies
 
 ## Installation
 
+Clone this repository and inside a root directory run this:
+
 ```shell
-$ composer install && composer dump-autoload 
+$ composer install
 ```
 
 ## Algorithms
