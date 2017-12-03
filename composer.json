@@ -1,0 +1,22 @@
+{
+    "name": "seregatte/algorithms-php",
+    "description": "Some Algorithms written in PHP for language studies",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || 5.7.25 || ^6.5"
+    },
+    "license": "GNU v3.0",
+    "authors": [
+        {
+            "name": "João Paulo Seregatte Costa",
+            "email": "seregatte@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Seregatte\\Algorithms": "src\/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
