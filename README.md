@@ -39,7 +39,7 @@ $ vendor/bin/phpunit
 License
 -------
 
-GNU V3.0
+GNU v3.0
 
 Author Information
 ------------------
