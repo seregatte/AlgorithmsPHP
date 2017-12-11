@@ -19,7 +19,7 @@ $ composer install
 
 | Name 						          | Solutions 								            | Description 										                  |
 |---------------------------|---------------------------------------|---------------------------------------------------|
-| ReverseString			        | 1 								                    | Reverse a given string            								|       
+| ReverseString			        | 3 								                    | Reverse a given string            								|       
 
 Dependencies
 ------------
