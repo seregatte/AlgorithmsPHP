@@ -36,6 +36,12 @@ Inside a root directory run that command:
 $ vendor/bin/phpunit
 ```
 
+or
+
+```shell
+$ make
+```
+
 License
 -------
 
