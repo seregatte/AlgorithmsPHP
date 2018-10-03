@@ -1,4 +1,4 @@
-# AlgorithmsPHP
+# AlgorithmsPHP [![Build Status](https://travis-ci.org/seregatte/AlgorithmsPHP.svg?branch=master)](https://travis-ci.org/seregatte/AlgorithmsPHP)
 
 Some Algorithms written in PHP for language studies (PR are welcome)
 
