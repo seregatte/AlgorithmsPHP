@@ -18,7 +18,7 @@ script:
   if [[ "$TRAVIS_OS_NAME" == 'linux' && -n "$PHPVER" ]]; then
     printf "FROM php:${PHPVER}-cli-alpine\nRUN apk add --update make curl\nRUN curl -Ss https://getcomposer.org/composer.phar > /usr/local/bin/composer && chmod +x /usr/local/bin/composer\nWORKDIR /code\nENTRYPOINT []\nCMD [\"make\"]" > Dockerfile
     docker build --tag tester:${PHPVER}-alpine .
-    docker run -it -v `pwd`:/code tester:${PHPVER}-alpine sh -c "RUN composer install --dev"
+    docker run -it -v `pwd`:/code tester:${PHPVER}-alpine composer install --dev
     docker run -it -v `pwd`:/code tester:${PHPVER}-alpine
   fi
 
